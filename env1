@@ -1,0 +1,15 @@
+#!/bin/bash 
+
+ sudo apt install python3.8-venv
+
+#Setting up the environment
+
+python3 -m venv env
+
+#Activating the envirionment
+source env/bin/activate
+
+
+#Install packages
+
+pip3 install django
