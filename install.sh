@@ -3,9 +3,7 @@
 
 sudo su
 
-
-git clone https://github.com/PaulineNjokiMaina/Mobalysis.git ./PATHs 
-useradd  mob_app_usr -n -d /users/mob_app_usr
+useradd  mob_app_usr -m -d /users/mob_app_usr
 git clone https://github.com/PaulineNjokiMaina/Mobalysis.git ./users/mob_app_usr
 
 echo executing Env.variables
