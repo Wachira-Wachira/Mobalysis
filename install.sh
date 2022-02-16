@@ -28,7 +28,7 @@ sudo source env/bin/activate
 
 sudo pip3 install django
 
-#Creating Migration
+#Creating Migrations
 
 sudo python3 /users/mob_app_usr/manage.py makemigrations 
 sudo python3 /users/mob_app_usr/manage.py migrate
