@@ -3,7 +3,7 @@
 #ceating user and home directory
 sudo useradd  mob_app_usr -n -d /users/mob_app_usr
 #cloning repo to users home directory
-sudo git clone https://github.com/PaulineNjokiMaina/Mobalysis.git .//mob_app_usr
+sudo git clone https://github.com/PaulineNjokiMaina/Mobalysis.git ./users/mob_app_usr
 
 #Creating Env. variables
 echo Creating Env.variables
