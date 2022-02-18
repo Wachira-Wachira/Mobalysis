@@ -29,7 +29,8 @@ echo Installing Django
 
 sudo apt-get update
 
-sudo apt install python3-django
+cd backend
+sudo pip3 install -r requirements.txt
 
 #Creating Migration
 echo Creating Migration 
